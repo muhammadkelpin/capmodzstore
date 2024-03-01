@@ -17,7 +17,7 @@ function baris_panjang() {
 function Lunatic_Banner() {
 clear
 baris_panjang
-echo -e       "${ungu}                  ARISCTUNNEL V3                ${Xark}"
+echo -e       "${ungu}                   CAPMODZSTORE                 ${Xark}"
 baris_panjang
 }
 
@@ -25,7 +25,7 @@ function Sc_Credit(){
 sleep 1
 baris_panjang
 echo -e       "${ungu}          Terimakasih sudah menggunakan-       ${Xark}"
-echo -e       "${ungu}         Script Credit By ARISCTUNNEL V3       ${Xark}"
+echo -e       "${ungu}         Script Credit By  CAPMODZSTORE        ${Xark}"
 baris_panjang
 exit 1
 }
@@ -118,7 +118,7 @@ hariini=`date -d "0 days" +"%Y-%m-%d"`
 cat >/var/www/html/vless-$user.txt
 
 ◇━━━━━━━━━━━━━━━━━◇
-    ARISCTUNNEL V3 
+     CAPMODZSTORE  
 ◇━━━━━━━━━━━━━━━━━◇
 # Format Vless WS TLS
 

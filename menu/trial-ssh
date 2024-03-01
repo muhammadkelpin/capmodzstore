@@ -31,7 +31,7 @@ function baris_panjang() {
 function Lunatic_Banner() {
 clear
 baris_panjang
-echo -e       "${ungu}                  ARISCTUNNEL V3                ${Xark}"
+echo -e       "${ungu}                   CAPMODZSTORE                 ${Xark}"
 baris_panjang
 }
 function MODE_Banner() {
@@ -44,7 +44,7 @@ function Sc_Credit(){
 sleep 1
 baris_panjang
 echo -e       "${ungu}          Terimakasih sudah menggunakan-       ${Xark}"
-echo -e       "${ungu}         Script Credit By ARISCTUNNEL V3       ${Xark}"
+echo -e       "${ungu}         Script Credit By  CAPMODZSTORE        ${Xark}"
 baris_panjang
 exit 1
 }

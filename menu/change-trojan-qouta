@@ -15,7 +15,7 @@ function baris_panjang() {
 function Lunatic_Banner() {
 clear
 baris_panjang
-echo -e "${ungu}           ARISCTUNNEL V3       ${Xark} "
+echo -e "${ungu}            CAPMODZSTORE        ${Xark} "
 baris_panjang
 }
 

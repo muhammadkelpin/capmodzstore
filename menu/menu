@@ -438,7 +438,7 @@ vers="3.1 LTS"
 # // ───>>> COLOR VALIDATIONS
 clear
 echo -e " \e[1;96m ┌─────────────────────────────────────────────────┐\e[0m"
-echo -e " \e[1;96m │ \e[41;1m                ARISCTUNNEL V3                 \e[0m \e[1;96m│\e[0m"
+echo -e " \e[1;96m │ \e[41;1m                 CAPMODZSTORE                  \e[0m \e[1;96m│\e[0m"
 echo -e " \e[1;96m └─────────────────────────────────────────────────┘\e[0m"
 echo -e " \e[1;96m ┌─────────────────────────────────────────────────┐\e[0m"
 echo -e " \e[1;96m │\e[0m \e[0m OS \e[0m            :\e[0m $(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')\e[0m"

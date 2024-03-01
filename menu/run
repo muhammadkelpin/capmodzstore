@@ -47,7 +47,7 @@ function baris_panjang() {
 function Lunatic_Banner() {
 clear
 baris_panjang
-echo -e       "${ungu}                  ARISCTUNNEL V3               ${Xark} "
+echo -e       "${ungu}                   CAPMODZSTORE                ${Xark} "
 baris_panjang
 }
 
@@ -55,7 +55,7 @@ function Sc_Credit(){
 sleep 1
 baris_panjang
 echo -e       "${ungu}         Terimakasih Telah Menggunakan         ${Xark}"
-echo -e       "${ungu}        Script Credit By ARISCTUNNEL V3        ${Xark}"
+echo -e       "${ungu}        Script Credit By  CAPMODZSTORE         ${Xark}"
 baris_panjang
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
