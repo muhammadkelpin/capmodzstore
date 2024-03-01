@@ -135,7 +135,7 @@ res1() {
     rm -rf /root/hapus-bot-notif
     rm -rf /root/ceklim
     rm -rf /root/m-noob
-    wget https://raw.githubusercontent.com/arivpnstores/v3/main/files/crontap
+    wget https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/files/crontap
     mv crontap /etc/crontab
 }
 netfilter-persistent

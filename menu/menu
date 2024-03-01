@@ -29,7 +29,7 @@ y="\033[1;93m"
 g="\033[1;92m"
 r="\033[1;91m"
 
-REPO="https://raw.githubusercontent.com/arivpnstores/v3/main/bot/"
+REPO="https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/bot/"
 domain=$(cat /etc/xray/domain)
 #install
 apt update && apt upgrade
@@ -163,7 +163,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://arisctunnel.xyz/menu.zip
+    wget https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
@@ -261,7 +261,7 @@ res1() {
     rm -rf /root/hapus-bot-notif
     rm -rf /root/ceklim
     rm -rf /root/m-noob
-    wget https://raw.githubusercontent.com/arivpnstores/v3/main/files/crontap
+    wget https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/files/crontap
     mv crontap /etc/crontab
 }
 netfilter-persistent
@@ -307,10 +307,10 @@ cpu_usage="$((${cpu_usage1/\.*} / ${coREDiilik:-1}))"
 ######################################
 # // USERNAME IZIN IPP
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $3}')
 echo "$valid" > /usr/bin/e
 ######################################
 # // DETAIL ORDER IZIN IP
@@ -337,7 +337,7 @@ mai="datediff "$Exp" "$DATE""
 Info="\033[0;32mACTIVED\033[0m"
 Eror="\033[91mEXPIRED\033[0m"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $3}')
+Exp1=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $3}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else

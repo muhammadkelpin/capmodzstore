@@ -30,10 +30,10 @@ clear
 ######################################
 # // USERNAME IZIN IPP
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $3}')
 echo "$valid" > /usr/bin/e
 ######################################
 # // DETAIL ORDER IZIN IP
@@ -60,7 +60,7 @@ mai="datediff "$Exp" "$DATE""
 Info="\033[0;32mACTIVED\033[0m"
 Eror="\033[91mEXPIRED\033[0m"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl -sS https://raw.githubusercontent.com/arivpnstores/izin/main/ip | grep $MYIP | awk '{print $3}')
+Exp1=$(curl -sS https://raw.githubusercontent.com/muhammadkelpin/izin/main/ip | grep $MYIP | awk '{print $3}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
